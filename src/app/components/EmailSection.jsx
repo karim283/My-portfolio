@@ -10,9 +10,9 @@ const EmailSection = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const serviceid = "service_oum69jb";
-    const templateid = "template_6feyl9d";
-    const publickey = "oSGHQ8kfdn7L_W1oH";
+    const serviceid = "service_e6z3oba";
+    const templateid = "template_qwvf53r";
+    const publickey = "QfFvGsrSlQYMp6o3q";
 
     const templateparams = {
       from_email: email,

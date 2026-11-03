@@ -24,9 +24,9 @@ const HeroSection = () => {
               sequence={[
                 "Web Developer",
                 1000,
-                "Mobile Developer",
+                "Flutter Developer",
                 1000,
-                "UI/UX Designer",
+                "IT Technician",
                 1000,
               ]}
               wrapper="span"
@@ -35,11 +35,11 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            I bring websites and mobile apps to life with a focus on user
-            experience. I combine my skills in web development, UI/UX design,
-            and Flutter to create beautiful and intuitive interfaces, whether
-            you need a responsive website or a cross-platform mobile
-            application.
+            I bring websites and mobile apps to life through full-stack
+            development, Flutter, and IT support. I focus on building
+            responsive, user-friendly applications with clean interfaces and
+            reliable functionality, combining my technical skills to create
+            effective digital solutions.
           </p>
           <div>
             <Link
@@ -66,11 +66,11 @@ const HeroSection = () => {
         >
           <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
             <Image
-              src="/images/2.png"
+              src="/images/3.png"
               alt="hero image"
               className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-              width={300}
-              height={300}
+              width={370}
+              height={370}
             />
           </div>
         </motion.div>

@@ -17,7 +17,6 @@ const ContactForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    // Send email using EmailJS
     try {
       const templateParams = {
         from_name: name,
@@ -26,18 +25,11 @@ const ContactForm = () => {
       };
 
       await emailjs.send(
-        "service_oum69jb", // Replace with your EmailJS service ID
-        "template_6feyl9d", // Replace with your EmailJS template ID
+        "service_e6z3oba",
+        "template_qwvf53r",
         templateParams,
-        "oSGHQ8kfdn7L_W1oH" // Replace with your EmailJS user ID
+        "QfFvGsrSlQYMp6o3q",
       );
-
-      // await emailjs.send(
-      //   "service_7tj42jj", // Replace with your EmailJS service ID
-      //   "template_22uy4cf", // Replace with your EmailJS template ID
-      //   templateParams,
-      //   "jN9wsn8Bff4Be-bka" // Replace with your EmailJS user ID
-      // );
 
       setSubmitted(true);
       setEmail("");

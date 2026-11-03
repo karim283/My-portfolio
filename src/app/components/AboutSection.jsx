@@ -9,19 +9,10 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
-        <li>Node.js</li>
-        <li>Dart</li>
-        <li>MySQL</li>
-        <li>Flutter</li>
-        <li>JavaScript</li>
-        <li>React js</li>
-        <li>C++</li>
-        <li>CSS</li>
-        <li>HTML</li>
-        <li>Taiwind</li>
-        <li>Sql</li>
-        <li>Git</li>
-        <li>Github</li>
+        <li>IT Technician at Vodafone UK for 1 year</li>
+        <li>Freelance Developer</li>
+        <li>Flutter Development Training at Black Horse Academy</li>
+        <li>Frontend Development (React) internship at Mindset Company</li>
       </ul>
     ),
   },
@@ -41,11 +32,9 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>Frontend certification from udemy</li>
-        <li>Flutter certification from Black Horse</li>
-        <li>CCNA certification from Black Horse</li>
-        <li>MSCA certification from Black Horse</li>
-        <li>Training at Black Horse company as a flutter development</li>
-        <li>Training at Mindset company as a Frontend (React) development</li>
+        <li>Flutter certification from Black Horse Academy</li>
+        <li>CCNA certification from Black Horse Academy</li>
+        <li>MSCA certification from Black Horse Academy</li>
       </ul>
     ),
   },
@@ -68,12 +57,12 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I am a frontend developer & Flutter developer with a passion for
-            creating interactive and responsive web & Mobile applications. I
-            have experience working with JavaScript, React, Node.js, HTML, CSS,
-            Dart and Git. I am a quick learner and I am always looking to expand
-            my knowledge and skill set. I am a team player and I am excited to
-            work with others to create amazing applications.
+            I am an IT Technician, Full-Stack Developer, and Flutter Developer
+            with hands-on experience in IT support and technical
+            troubleshooting. I enjoy building responsive websites and mobile
+            applications using JavaScript, React, Node.js, and Flutter. I am a
+            quick learner, a team player, and always eager to develop my skills
+            and take on new challenges.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
@@ -81,7 +70,7 @@ const AboutSection = () => {
               active={tab === "skills"}
             >
               {" "}
-              Skills{" "}
+              Experience{" "}
             </TabButton>
             <TabButton
               selectTab={() => handleTabChange("education")}
